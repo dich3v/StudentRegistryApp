@@ -13,7 +13,7 @@ pipeline{
                 checkout scm
             }
         }
-        stage("Install dependeies"){
+        stage("Install dependecies"){
             steps{
                 script{
                     if(isUnix()){
